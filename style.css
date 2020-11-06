@@ -1144,6 +1144,7 @@ nav .nav-item::before {
 
 @media only screen and (min-width:992px) {
     .padding {
+        left: 2rem !important;
         max-height: 85vh;
     }
 }
