@@ -721,7 +721,7 @@ label {
     background-image: url('image/right-arrow.svg');
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
     .careau-reseau {
         width: 1.5rem;
         height: 1.5rem;
