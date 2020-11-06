@@ -533,9 +533,12 @@ mark {
 }
 
 span {
-    min-height: 3px;
-    min-width: 60px;
-    background-color: #4a4e51;
+    font-family: Roboto Condensed;
+    color: #002EA5;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 0.09em;
+    font-weight: 500;
 }
 
 /* a link */
@@ -1182,5 +1185,5 @@ nav .nav-item::before {
 
 h2 {
     color: #4a4e51;
-    letter-spacing: 3px;
+    margin-bottom: 2rem;
 }

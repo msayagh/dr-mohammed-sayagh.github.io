@@ -1182,5 +1182,11 @@ nav .nav-item::before {
 
 h2 {
     color: #4a4e51;
-    letter-spacing: 3px;
+    border-style: solid;
+
+    /* border-color: #4a4e51 */
+    border-width: 0 0 4px 0;
+    width: 25%;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
 }
