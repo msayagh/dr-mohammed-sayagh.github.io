@@ -1062,7 +1062,7 @@ nav .nav-item::before {
     }
 }
 
-@media only screen and (min-width:992px) {
+@media only screen and (min-width:993px) {
     .col-info p {
         letter-spacing: 0.1rem;
     }

@@ -1,6 +1,7 @@
 /* ELEMENT CONTENEURS */
 html {
     font-family: 'Roboto', sans-serif;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     scroll-behavior: auto;
     position: absolute;
@@ -41,7 +42,7 @@ main {
     background: -webkit-gradient(linear, left top, right top, color-stop(40%, #233559), color-stop(40%, #eeeeee));
     background: -webkit-linear-gradient(left, #233559 40%, #eeeeee 40%);
     background: -o-linear-gradient(left, #233559 40%, #eeeeee 40%);
-    background: linear-gradient(90deg, #233559 33%, #eeeeee 33%);
+    background: linear-gradient(90deg, #233559 35%, #eeeeee 35%);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -59,7 +60,7 @@ main {
     width: 100%;
     max-width: 60rem;
     margin: 0 auto;
-    padding: 1rem 0;
+    padding: 1rem 0rem;
 }
 
 nav {
@@ -365,7 +366,7 @@ button::after {
 }
 
 /* header + menu RESPONSIVE */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
     .container-fluid {
         background: #eeeeee !important;
         overflow: visible;
@@ -392,7 +393,7 @@ button::after {
 .slide2 .conteneur_para {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
-    min-width: 80%;
+    min-width: 90%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
@@ -503,7 +504,7 @@ p,
 sub,
 li {
     font-family: Roboto;
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     list-style: none;
     text-align: justify;
     line-height: 2rem;
@@ -684,7 +685,7 @@ label {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
-    width: 35px;
+    width: 40px;
     flex-direction: row;
 }
 
@@ -696,7 +697,7 @@ label {
 
 /* reseau sociaux */
 .careau-reseau {
-    width: 1rem;
+    width: 1.2rem;
     height: 2rem;
     opacity: 0.7;
     background-repeat: no-repeat;
@@ -720,7 +721,7 @@ label {
     background-image: url('image/right-arrow.svg');
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
     .careau-reseau {
         width: 1.5rem;
         height: 1.5rem;
@@ -747,7 +748,7 @@ label {
 @media only screen and (max-width: 991px) {
     .container1-md {
         width: 100%;
-        padding-top: 20vh;
+        padding-top: 30vh;
     }
 
     .navigation-md {
@@ -866,10 +867,13 @@ label {
     }
 }
 
-@media only screen and (min-width:992px) {
+@media only screen and (min-width:991px) {
     .backgroud-menu-xs,
     .contact-info-md {
         background-color: rgba(35, 53, 89,0) !important;
+        overflow-y: hidden !important;
+        max-height: auto !important;
+        max-height: inherit !important;
     }
 }
 
@@ -911,9 +915,7 @@ label {
 
 @media only screen and (max-width:575px) {
     .reseau-sm {
-        width: 90%;
-        margin-left: -3rem !important;
-        margin-right: 20% !important;
+        margin-top: 30px;
     }
 }
 
@@ -956,7 +958,7 @@ nav .nav-item::before {
     }
 }
 
-@media only screen and (max-width:992px) {
+@media only screen and (max-width:991px) {
     .reseau-sm {
         color: #233559 !important;
         margin: 0px;
@@ -970,9 +972,9 @@ nav .nav-item::before {
 }
 
 .columnFleche {
-    padding: 2.6% 0rem;
-    width: 3.6rem;
-    height: 3.4rem;
+    padding: 3.2% 0rem;
+    width: 4.6rem;
+    height: 4rem;
     border-style: solid;
     border-width: 0px 0px 1px 0px;
     border-color: #fff;
@@ -1002,7 +1004,7 @@ nav .nav-item::before {
 
 @media only screen and (max-width:991px) {
     .backgroundMobile {
-        background: -webkit-linear-gradient(270deg, rgb(35, 53, 89) 30rem, #eeeeee 30rem);
+        background: -webkit-linear-gradient(270deg, rgb(35, 53, 89) 40rem, #eeeeee 40rem);
         background-color: #eeeeee;
         min-height: auto;
     }
@@ -1039,7 +1041,7 @@ nav .nav-item::before {
 
 @media only screen and (max-width:767px) {
     .container1-md {
-        padding: 12rem 4rem 2rem 4rem;
+        padding: 18rem 4rem 2rem 4rem;
     }
 }
 
@@ -1052,7 +1054,7 @@ nav .nav-item::before {
     }
 
     .container1-md {
-        padding: 0rem 1rem 0rem 1rem;
+        padding: 8rem 1rem 0rem 1rem;
     }
 
     .col-info {
@@ -1060,19 +1062,18 @@ nav .nav-item::before {
     }
 }
 
-@media only screen and (min-width:992px) {
+@media only screen and (min-width:990px) {
     .col-info p {
-        letter-spacing: 0rem;
-        font-size: 0.7em;
+        letter-spacing: 0.1rem;
     }
 }
 
 .slide2 p,
 .slide2 sub,
 .slide3 li {
-    font-size: 0.8rem;
+    font-size: 0.9em;
     opacity: 0.8;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
     font-weight: 500;
     letter-spacing: 0.7px;
     font-family: roboto;
@@ -1080,10 +1081,10 @@ nav .nav-item::before {
 }
 
 .slide2 ul .nav-link {
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.3rem;
     font-weight: 700;
     font-size: 1em;
-    font-size: 0.75rem;
+    font-size: 0.9rem;
 }
 
 .slide2 .nav-link.active:hover {
@@ -1112,53 +1113,20 @@ nav .nav-item::before {
     }
 }
 
-@media only screen and (min-width:992px) and (max-width:1199px) {
-    p,
-    sub,
-    li {
-        font-size: 0.8em !important;
-        line-height: 1.7em !important;
-        letter-spacing: 1px !important;
+.slide2 .main li a {
+    font-size: 0.9rem;
+}
+
+@media only screen and (min-width:991px) {
+    .padding {
+        padding-bottom: 6rem !important;
+        max-height: 90vh;
     }
 }
 
-@media only screen and (min-width:1200px) {
-    p,
-    sub,
-    li {
-        letter-spacing: 2px;
-        font-size: 1em !important;
-    }
-
-    .slide2 ul .nav-link {
-        font-size: 0.95em;
-    }
-}
-
-@media only screen and (min-width:768px) and (max-width:991px) {
+@media only screen and (max-width:991px) {
     .col-info p {
+        letter-spacing: 2px;
     }
-}
-
-@media only screen and (min-width:992px) and (max-width:1199px) {
-    .h1 {
-        font-size: 1.9em !important;
-    }
-}
-
-@media only screen and (max-width:551px) {
-    .image-xs img {
-        width: 110% !important;
-    }
-
-    .backgroundMobile {
-        background: -webkit-linear-gradient(270deg, rgb(35, 53, 89) 26rem, #eeeeee 26rem);
-    }
-}
-
-@media only screen and (min-width:1200px) {
-}
-
-@media only screen and (max-width:1199px) {
 }
 
