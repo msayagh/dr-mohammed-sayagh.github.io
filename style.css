@@ -1142,15 +1142,16 @@ nav .nav-item::before {
     padding-bottom: 1rem;
 }
 
-@media only screen and (min-width:992px) {
+@media only screen and (min-width:991px) {
     .padding {
         left: 2rem !important;
         max-height: 85vh;
     }
 }
-
+@media only screen and (min-width:991px) and (max-width:1024px) {
 .padding p,
 .padding sub,
 .padding li {
     font-size: 0.8em !important;
+}
 }
