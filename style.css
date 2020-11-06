@@ -1105,11 +1105,11 @@ nav .nav-item::before {
     }
 
     .columnFleche {
-        padding: 4.2% 0rem;
+        padding: 4.2% 0;
     }
 
     ::-webkit-scrollbar {
-        width: 0px;
+        width: 0;
     }
 }
 
@@ -1120,7 +1120,6 @@ nav .nav-item::before {
 @media only screen and (max-width:985px) {
     .padding {
         padding-bottom: 6rem !important;
-        max-height: 90vh;
     }
 }
 
@@ -1141,5 +1140,11 @@ nav .nav-item::before {
 
 .tab-pane li {
     padding-bottom: 1rem;
+}
+
+@media only screen and (min-width:992px) {
+    .padding {
+        max-height: 85vh;
+    }
 }
 

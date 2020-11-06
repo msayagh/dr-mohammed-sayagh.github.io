@@ -1,8 +1,9 @@
-/* !
+/*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
  * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -611,8 +612,10 @@ pre code {
 .container-fluid {
     width: 100%;
 
-    /* padding-right: 15px */
-    /* padding-left: 15px */
+    /*padding-right: 15px
+ */
+    /*padding-left: 15px
+ */
     margin-right: auto;
     margin-left: auto;
     position: absolute;
@@ -626,8 +629,10 @@ pre code {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 
-    /* margin-right: -15px */
-    /* margin-left: -15px */
+    /*margin-right: -15px
+ */
+    /*margin-left: -15px
+ */
 }
 
 .no-gutters {
@@ -714,8 +719,10 @@ pre code {
     position: relative;
     width: 100%;
 
-    /* padding-right: 15px */
-    /* padding-left: 15px */
+    /*padding-right: 15px
+ */
+    /*padding-left: 15px
+ */
 }
 
 .col {
@@ -4760,7 +4767,8 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs .nav-item {
-    /* margin-bottom: -1px */
+    /*margin-bottom: -1px
+ */
 }
 
 .nav-tabs .nav-link:hover,
@@ -7240,19 +7248,25 @@ a.close.disabled {
 
 .carousel-control-prev,
 .carousel-control-next {
-    /* position: absolute */
+    /*position: absolute
+ */
     top: 0;
     bottom: 0;
     z-index: 1;
     display: -ms-flexbox;
 
-    /* display: flex */
-    /* -ms-flex-align: center */
-    /* align-items: center */
+    /*display: flex
+ */
+    /*-ms-flex-align: center
+ */
+    /*align-items: center
+ */
     -ms-flex-pack: center;
 
-    /* color: #fff */
-    /* opacity: 0.5 */
+    /*color: #fff
+ */
+    /*opacity: 0.5
+ */
     -webkit-transition: opacity 0.15s ease;
     -o-transition: opacity 0.15s ease;
     transition: opacity 0.15s ease;
