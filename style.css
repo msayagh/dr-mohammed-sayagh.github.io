@@ -507,7 +507,7 @@ li {
     font-size: 0.85rem;
     list-style: none;
     text-align: justify;
-    line-height: 2rem;
+    line-height: 2rem !important;
 }
 
 strong {
@@ -1064,7 +1064,7 @@ nav .nav-item::before {
 
 @media only screen and (min-width:993px) {
     .col-info p {
-        letter-spacing: 0.1rem;
+        /* letter-spacing: 0.1rem */
     }
 }
 
@@ -1095,7 +1095,7 @@ nav .nav-item::before {
     position: static;
 }
 
-@media only screen and (max-width:991px) {
+@media only screen and (max-width:990px) {
     .paddingBotton {
         padding-bottom: 5rem;
     }
@@ -1144,14 +1144,20 @@ nav .nav-item::before {
 
 @media only screen and (min-width:991px) {
     .padding {
-        left: 2rem !important;
         max-height: 85vh;
     }
 }
+
 @media only screen and (min-width:991px) and (max-width:1024px) {
-.padding p,
-.padding sub,
-.padding li {
-    font-size: 0.8em !important;
+    .padding p,
+    .padding sub,
+    .padding li {
+        font-size: 0.8em !important;
+    }
 }
+
+@media only screen and (max-width:1199px) {
+    .marginLeft {
+        margin-left: 2rem;
+    }
 }
