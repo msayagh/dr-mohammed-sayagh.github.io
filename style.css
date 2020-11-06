@@ -20,7 +20,7 @@ main {
     padding: 0;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
     .container-fluid {
         position: absolute;
     }
@@ -278,7 +278,7 @@ nav .nav-list .nav-item:nth-child(3) .nav-link {
     transition-delay: .3s;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
     /* menu humberger */
     nav .nav-list {
         width: 100%;
@@ -822,13 +822,13 @@ label {
     }
 }
 
-@media only screen and (max-width:992px) {
+@media only screen and (max-width:991px) {
     .rectangle-md {
         display: none;
     }
 }
 
-@media only screen and (min-width:575px) and (max-width:992px) {
+@media only screen and (min-width:575px) and (max-width:991px) {
     .slide2 .titre-conteneur ul,
     .titre .col-lg-12 {
         left: 10% !important;
@@ -852,7 +852,7 @@ label {
     }
 }
 
-@media only screen and (max-width:992px) {
+@media only screen and (max-width:991px) {
     .marge-md {
         min-height: 40%;
         padding: 20rem 0rem 5rem 0rem !important;
@@ -895,7 +895,7 @@ label {
     }
 }
 
-@media only screen and (max-width:992px) {
+@media only screen and (max-width:991px) {
     .slide-port {
         width: 100%;
         min-height: 90%;
@@ -919,7 +919,7 @@ label {
     }
 }
 
-@media only screen and (max-width:992px) {
+@media only screen and (max-width:991px) {
     .backgroud-blanc {
         max-height: auto;
         background-color: #eeeeee;
@@ -930,7 +930,7 @@ nav .nav-item::before {
     color: #EAEAEA !important;
 }
 
-@media only screen and (min-width:992px)  {
+@media only screen and (min-width:991px)  {
     .barre-bas {
         height: 5vh;
         position: fixed;
@@ -944,7 +944,7 @@ nav .nav-item::before {
     padding-left: 2vh;
 }
 
-@media only screen and (min-width:992px) {
+@media only screen and (min-width:991px) {
     .container1-md {
         position: relative !important;
         height: 100vh;
@@ -1015,7 +1015,7 @@ nav .nav-item::before {
     }
 }
 
-@media only screen and (min-width:992px) {
+@media only screen and (min-width:991px) {
     .contentBoxParagraphe {
         max-height: 100vh;
         padding: 5rem 0rem;
@@ -1130,12 +1130,6 @@ nav .nav-item::before {
     }
 }
 
-@media only screen and (min-width:992px) {
-    p,
-    sub,
-    li {
-    }
-}
 
 @media only screen and (max-width:993px) and (min-width:980px) {
     p,

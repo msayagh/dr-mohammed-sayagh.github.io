@@ -20,7 +20,7 @@ main {
     padding: 0;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
     .container-fluid {
         position: absolute;
     }
@@ -42,7 +42,7 @@ main {
     background: -webkit-gradient(linear, left top, right top, color-stop(40%, #233559), color-stop(40%, #eeeeee));
     background: -webkit-linear-gradient(left, #233559 40%, #eeeeee 40%);
     background: -o-linear-gradient(left, #233559 40%, #eeeeee 40%);
-    background: linear-gradient(90deg, #233559 27%, #eeeeee 27%);
+    background: linear-gradient(90deg, #233559 35%, #eeeeee 35%);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -366,7 +366,7 @@ button::after {
 }
 
 /* header + menu RESPONSIVE */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
     .container-fluid {
         background: #eeeeee !important;
         overflow: visible;
@@ -721,7 +721,7 @@ label {
     background-image: url('image/right-arrow.svg');
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
     .careau-reseau {
         width: 1.5rem;
         height: 1.5rem;
@@ -867,10 +867,13 @@ label {
     }
 }
 
-@media only screen and (min-width:992px) {
+@media only screen and (min-width:991px) {
     .backgroud-menu-xs,
     .contact-info-md {
         background-color: rgba(35, 53, 89,0) !important;
+        overflow-y: hidden !important;
+        max-height: auto !important;
+        max-height: inherit !important;
     }
 }
 
@@ -955,7 +958,7 @@ nav .nav-item::before {
     }
 }
 
-@media only screen and (max-width:992px) {
+@media only screen and (max-width:991px) {
     .reseau-sm {
         color: #233559 !important;
         margin: 0px;
@@ -1059,7 +1062,7 @@ nav .nav-item::before {
     }
 }
 
-@media only screen and (min-width:992px) {
+@media only screen and (min-width:993px) {
     .col-info p {
         letter-spacing: 0.1rem;
     }
@@ -1068,9 +1071,9 @@ nav .nav-item::before {
 .slide2 p,
 .slide2 sub,
 .slide3 li {
-    font-size: 1.1rem;
+    font-size: 0.9em;
     opacity: 0.8;
-    line-height: 2rem;
+    line-height: 1.8rem;
     font-weight: 500;
     letter-spacing: 0.7px;
     font-family: roboto;
@@ -1081,7 +1084,7 @@ nav .nav-item::before {
     letter-spacing: 0.3rem;
     font-weight: 700;
     font-size: 1em;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .slide2 .nav-link.active:hover {
@@ -1107,6 +1110,39 @@ nav .nav-item::before {
 
     ::-webkit-scrollbar {
         width: 0px;
+    }
+}
+
+.slide2 .main li a {
+    font-size: 0.9rem;
+}
+
+@media only screen and (min-width:991px) {
+    .padding {
+        padding-bottom: 6rem !important;
+        max-height: 90vh;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .col-info p {
+        letter-spacing: 2px;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    p,
+    sub,
+    li {
+    }
+}
+
+@media only screen and (max-width:993px) and (min-width:980px) {
+    p,
+    sub,
+    li {
+        font-size: 0.75em !important;
+        line-height: 1.8em !important;
     }
 }
 
