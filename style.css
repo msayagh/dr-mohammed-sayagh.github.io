@@ -1149,3 +1149,8 @@ nav .nav-item::before {
     }
 }
 
+.padding p,
+.padding sub,
+.padding li {
+    font-size: 0.8em !important;
+}
