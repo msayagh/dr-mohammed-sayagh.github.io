@@ -533,12 +533,9 @@ mark {
 }
 
 span {
-    font-family: Roboto Condensed;
-    color: #002EA5;
-    text-transform: uppercase;
-    text-align: left;
-    letter-spacing: 0.09em;
-    font-weight: 500;
+    min-height: 3px;
+    min-width: 60px;
+    background-color: #4a4e51;
 }
 
 /* a link */
@@ -1011,6 +1008,7 @@ nav .nav-item::before {
 @media only screen and (min-width:991px) {
     .contentBoxParagraphe {
         max-height: 100vh;
+        min-height: 90vh;
         padding: 5rem 0rem;
         overflow-y: scroll;
         margin-right: 0;
@@ -1067,7 +1065,7 @@ nav .nav-item::before {
     font-weight: 500;
     letter-spacing: 0.7px;
     font-family: roboto;
-    padding-bottom: 0.8rem;
+    padding-bottom: 0.2rem;
 }
 
 .slide2 ul .nav-link {
@@ -1181,4 +1179,9 @@ nav .nav-item::before {
     .logo-image {
         width: 30px;
     }
+}
+
+h2 {
+    color: #4a4e51;
+    letter-spacing: 3px;
 }
