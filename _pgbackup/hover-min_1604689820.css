@@ -1,11 +1,12 @@
-/* !
+/*!
  * Hover.css (http://ianlunn.github.io/Hover/)
  * Version: 2.3.2
  * Author: Ian Lunn @IanLunn
  * Author URL: http://ianlunn.co.uk/
  * Github: https://github.com/IanLunn/Hover
 
- * Hover.css Copyright Ian Lunn 2017. Generated with Sass. */
+ * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
+ */
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
@@ -1347,8 +1348,6 @@
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0,0,0,0);
-
-    /* opacity: 0.7 */
     -webkit-transition-duration: .3s;
     transition-duration: .3s;
     -webkit-transition-property: transform;
@@ -4721,6 +4720,6 @@
     height: 25px;
 }
 
-.slide2 .nav-link.active:hover {
+.slide2 .nav-link.active:hover{
     left: 75px;
 }
