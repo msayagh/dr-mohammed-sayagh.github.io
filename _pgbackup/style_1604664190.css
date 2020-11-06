@@ -1,7 +1,6 @@
 /* ELEMENT CONTENEURS */
 html {
     font-family: 'Roboto', sans-serif;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     scroll-behavior: auto;
     position: absolute;
@@ -42,7 +41,7 @@ main {
     background: -webkit-gradient(linear, left top, right top, color-stop(40%, #233559), color-stop(40%, #eeeeee));
     background: -webkit-linear-gradient(left, #233559 40%, #eeeeee 40%);
     background: -o-linear-gradient(left, #233559 40%, #eeeeee 40%);
-    background: linear-gradient(90deg, #233559 35%, #eeeeee 35%);
+    background: linear-gradient(90deg, #233559 33%, #eeeeee 33%);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -60,7 +59,7 @@ main {
     width: 100%;
     max-width: 60rem;
     margin: 0 auto;
-    padding: 1rem 0rem;
+    padding: 1rem 0;
 }
 
 nav {
@@ -393,7 +392,7 @@ button::after {
 .slide2 .conteneur_para {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
-    min-width: 90%;
+    min-width: 80%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
@@ -442,7 +441,7 @@ a:focus {
     flex-wrap: nowrap;
     -ms-flex-line-pack: center;
     align-content: center;
-    padding: 2% 0;
+    padding: 1.7% 0;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
@@ -685,7 +684,7 @@ label {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
-    width: 40px;
+    width: 35px;
     flex-direction: row;
 }
 
@@ -748,7 +747,7 @@ label {
 @media only screen and (max-width: 991px) {
     .container1-md {
         width: 100%;
-        padding-top: 30vh;
+        padding-top: 20vh;
     }
 
     .navigation-md {
@@ -912,7 +911,9 @@ label {
 
 @media only screen and (max-width:575px) {
     .reseau-sm {
-        margin-top: 30px;
+        width: 90%;
+        margin-left: -3rem !important;
+        margin-right: 20% !important;
     }
 }
 
@@ -969,11 +970,11 @@ nav .nav-item::before {
 }
 
 .columnFleche {
-    padding: 3% 0rem;
-    width: 3rem;
-    height: 4rem;
+    padding: 2.6% 0rem;
+    width: 3.6rem;
+    height: 3.4rem;
     border-style: solid;
-    border-width: 0px 0px 1px 0px;
+    border-width: 1px 0px 0px 0px;
     border-color: #fff;
     background-color: #233559;
 }
@@ -1038,7 +1039,7 @@ nav .nav-item::before {
 
 @media only screen and (max-width:767px) {
     .container1-md {
-        padding: 18rem 4rem 2rem 4rem;
+        padding: 12rem 4rem 2rem 4rem;
     }
 }
 
@@ -1061,16 +1062,17 @@ nav .nav-item::before {
 
 @media only screen and (min-width:992px) {
     .col-info p {
-        letter-spacing: 0.1rem;
+        letter-spacing: 0rem;
+        font-size: 0.7em;
     }
 }
 
 .slide2 p,
 .slide2 sub,
 .slide3 li {
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     opacity: 0.8;
-    line-height: 2rem;
+    line-height: 1.5rem;
     font-weight: 500;
     letter-spacing: 0.7px;
     font-family: roboto;
@@ -1078,10 +1080,10 @@ nav .nav-item::before {
 }
 
 .slide2 ul .nav-link {
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
     font-weight: 700;
     font-size: 1em;
-    font-size: 1rem;
+    font-size: 0.75rem;
 }
 
 .slide2 .nav-link.active:hover {
@@ -1108,5 +1110,55 @@ nav .nav-item::before {
     ::-webkit-scrollbar {
         width: 0px;
     }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    p,
+    sub,
+    li {
+        font-size: 0.8em !important;
+        line-height: 1.7em !important;
+        letter-spacing: 1px !important;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    p,
+    sub,
+    li {
+        letter-spacing: 1.4px !important;
+        font-size: 0.9em !important;
+    }
+
+    .slide2 ul .nav-link {
+        font-size: 0.95em;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .col-info p {
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .h1 {
+        font-size: 1.9em !important;
+    }
+}
+
+@media only screen and (max-width:551px) {
+    .image-xs img {
+        width: 110% !important;
+    }
+
+    .backgroundMobile {
+        background: -webkit-linear-gradient(270deg, rgb(35, 53, 89) 26rem, #eeeeee 26rem);
+    }
+}
+
+@media only screen and (min-width:1200px) {
+}
+
+@media only screen and (max-width:1199px) {
 }
 
