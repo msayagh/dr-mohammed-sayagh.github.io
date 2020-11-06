@@ -1117,7 +1117,7 @@ nav .nav-item::before {
     font-size: 0.9rem;
 }
 
-@media only screen and (min-width:985px) {
+@media only screen and (max-width:985px) {
     .padding {
         padding-bottom: 6rem !important;
         max-height: 90vh;
