@@ -42,7 +42,7 @@ main {
     background: -webkit-gradient(linear, left top, right top, color-stop(40%, #233559), color-stop(40%, #eeeeee));
     background: -webkit-linear-gradient(left, #233559 40%, #eeeeee 40%);
     background: -o-linear-gradient(left, #233559 40%, #eeeeee 40%);
-    background: linear-gradient(90deg, #233559 35%, #eeeeee 35%);
+    background: linear-gradient(90deg, #233559 27%, #eeeeee 27%);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -366,7 +366,7 @@ button::after {
 }
 
 /* header + menu RESPONSIVE */
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 992px) {
     .container-fluid {
         background: #eeeeee !important;
         overflow: visible;
@@ -867,13 +867,10 @@ label {
     }
 }
 
-@media only screen and (min-width:991px) {
+@media only screen and (min-width:992px) {
     .backgroud-menu-xs,
     .contact-info-md {
         background-color: rgba(35, 53, 89,0) !important;
-        overflow-y: hidden !important;
-        max-height: auto !important;
-        max-height: inherit !important;
     }
 }
 
@@ -1071,9 +1068,9 @@ nav .nav-item::before {
 .slide2 p,
 .slide2 sub,
 .slide3 li {
-    font-size: 0.9em;
+    font-size: 1.1rem;
     opacity: 0.8;
-    line-height: 1.8rem;
+    line-height: 2rem;
     font-weight: 500;
     letter-spacing: 0.7px;
     font-family: roboto;
@@ -1084,7 +1081,7 @@ nav .nav-item::before {
     letter-spacing: 0.3rem;
     font-weight: 700;
     font-size: 1em;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 .slide2 .nav-link.active:hover {
@@ -1111,9 +1108,5 @@ nav .nav-item::before {
     ::-webkit-scrollbar {
         width: 0px;
     }
-}
-
-.slide2 .main li a {
-    font-size: 0.9rem;
 }
 

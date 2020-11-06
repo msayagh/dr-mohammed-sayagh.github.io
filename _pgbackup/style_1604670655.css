@@ -871,9 +871,8 @@ label {
     .backgroud-menu-xs,
     .contact-info-md {
         background-color: rgba(35, 53, 89,0) !important;
-        overflow-y: hidden !important;
-        max-height: auto !important;
-        max-height: inherit !important;
+        overflow-y: hidden;
+        max-height: auto;
     }
 }
 
@@ -1111,9 +1110,5 @@ nav .nav-item::before {
     ::-webkit-scrollbar {
         width: 0px;
     }
-}
-
-.slide2 .main li a {
-    font-size: 0.9rem;
 }
 
