@@ -885,7 +885,6 @@ label {
 @media only screen and (max-width:575px) {
     .slide2 .titre-conteneur ul,
     .titre .col-lg-12 {
-        font-size: 0.7rem !important;
         left: 0 !important;
     }
 }
@@ -893,7 +892,6 @@ label {
 @media only screen and (max-width:575px) {
     .haut-menu-xs {
         background-color: #233559;
-        padding: 5rem 0 3rem 0 !important;
     }
 }
 
@@ -1163,11 +1161,8 @@ nav .nav-item::before {
 
 @media only screen and (max-width:551px) {
     .columnFleche {
-        padding: 2% 0;
-        width: 2.5rem;
-        align-items: center;
-        justify-content: center;
-        display: flex;
+        padding: 6% 0;
+        width: 3rem;
     }
 
     .careau-reseau {
