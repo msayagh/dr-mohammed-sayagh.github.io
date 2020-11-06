@@ -958,7 +958,7 @@ nav .nav-item::before {
     }
 }
 
-@media only screen and (max-width:992px) {
+@media only screen and (max-width:991px) {
     .reseau-sm {
         color: #233559 !important;
         margin: 0px;
@@ -1115,5 +1115,17 @@ nav .nav-item::before {
 
 .slide2 .main li a {
     font-size: 0.9rem;
+}
+
+@media only screen and (min-width:991px) {
+    .padding {
+        max-height: 90vh;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .col-info p {
+        letter-spacing: 2px;
+    }
 }
 
