@@ -925,7 +925,7 @@ nav .nav-item::before {
 @media only screen and (min-width:991px)  {
     .barre-bas {
         height: 5vh;
-        position: fixed;
+        position: fixed !important;
         width: 100%;
         z-index: 99999;
     }
