@@ -389,7 +389,7 @@ button::after {
 .slide2 .conteneur_para {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
-    min-width: 80%;
+    min-width: 85%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
@@ -407,7 +407,7 @@ button::after {
 
 .slide2 .titre-conteneur ul,
 .titre .col-lg-12 {
-    opacity: 0.7;
+    opacity: 1;
     padding: 0.5em 0em;
     margin: 0;
     width: 100%;
@@ -865,7 +865,7 @@ label {
 @media only screen and (min-width:991px) {
     .backgroud-menu-xs,
     .contact-info-md {
-        background-color: rgba(35, 53, 89,0) !important;
+        /* background-color: rgba(35, 53, 89,0) !important */
         overflow-y: hidden !important;
         max-height: auto !important;
         max-height: inherit !important;
@@ -1008,6 +1008,7 @@ nav .nav-item::before {
         max-height: 100vh;
         min-height: 90vh;
         padding: 5rem 0rem;
+        padding-left: 5rem;
         overflow-y: scroll;
         margin-right: 0;
     }
@@ -1073,6 +1074,7 @@ nav .nav-item::before {
     letter-spacing: 0.3rem;
     font-weight: 700;
     left: 0px;
+    opacity: 0.8;
     font-size: 1em;
     font-size: 0.9rem;
 }

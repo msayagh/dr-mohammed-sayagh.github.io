@@ -43,7 +43,7 @@ main {
     background: -webkit-gradient(linear, left top, right top, color-stop(40%, #233559), color-stop(40%, #eeeeee));
     background: -webkit-linear-gradient(left, #233559 40%, #eeeeee 40%);
     background: -o-linear-gradient(left, #233559 40%, #eeeeee 40%);
-    background: linear-gradient(90deg, #233559 30%, #eeeeee 30%);
+    background: linear-gradient(90deg, #233559 19rem, #eeeeee 19rem);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -476,7 +476,8 @@ a:focus {
     border: none;
     background: none;
     color: #fff;
-    left: 10px;
+
+    /* left: 10px */
     opacity: 1;
     animation-duration: 1s;
 }
@@ -601,7 +602,7 @@ label {
 
 .nav-item a:link {
     color: #fff;
-    left: -10px;
+    left: 18px;
     background-color: transparent;
     text-decoration: none;
 }
@@ -936,7 +937,7 @@ nav .nav-item::before {
 
 .col-info {
     border-left: 3px solid #EAEAEA;
-    padding-left: 1.5rem;
+    padding-left: 0.7rem;
 }
 
 @media only screen and (min-width:991px) {
@@ -1007,6 +1008,7 @@ nav .nav-item::before {
         max-height: 100vh;
         min-height: 90vh;
         padding: 5rem 0rem;
+        padding-left: 5rem;
         overflow-y: scroll;
         margin-right: 0;
     }
@@ -1049,14 +1051,14 @@ nav .nav-item::before {
 
 @media only screen and (min-width:993px) {
     .col-info p {
-        /* letter-spacing: 0.1rem */
+        letter-spacing: 0.1rem;
     }
 }
 
 .slide2 p,
 .slide2 sub,
 .slide3 li {
-    font-size: 0.95em;
+    font-size: 0.97em;
     line-height: 1.8rem;
     font-weight: 500;
     letter-spacing: 1.2px;
@@ -1071,6 +1073,7 @@ nav .nav-item::before {
 .slide2 ul .nav-link {
     letter-spacing: 0.3rem;
     font-weight: 700;
+    left: 0px;
     font-size: 1em;
     font-size: 0.9rem;
 }
@@ -1189,8 +1192,8 @@ h2 {
     font-family: 'Open Sans', sans-serif;
 }
 
-@media only screen and (min-width:1200px) {
+@media only screen and (min-width:1324px) {
     .container-fluid {
-        background: linear-gradient(90deg, #233559 26%, #eeeeee 26%);
+        background: linear-gradient(90deg, #233559 23%, #eeeeee 23%);
     }
 }
