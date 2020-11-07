@@ -43,7 +43,7 @@ main {
     background: -webkit-gradient(linear, left top, right top, color-stop(40%, #233559), color-stop(40%, #eeeeee));
     background: -webkit-linear-gradient(left, #233559 40%, #eeeeee 40%);
     background: -o-linear-gradient(left, #233559 40%, #eeeeee 40%);
-    background: linear-gradient(90deg, #233559 19rem, #eeeeee 19rem);
+    background: linear-gradient(90deg, #233559 30%, #eeeeee 30%);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -937,7 +937,7 @@ nav .nav-item::before {
 
 .col-info {
     border-left: 3px solid #EAEAEA;
-    padding-left: 0.7rem;
+    padding-left: 1.5rem;
 }
 
 @media only screen and (min-width:991px) {
@@ -1050,7 +1050,7 @@ nav .nav-item::before {
 
 @media only screen and (min-width:993px) {
     .col-info p {
-        letter-spacing: 0.1rem;
+        /* letter-spacing: 0.1rem */
     }
 }
 
@@ -1191,7 +1191,7 @@ h2 {
     font-family: 'Open Sans', sans-serif;
 }
 
-@media only screen and (min-width:1324px) {
+@media only screen and (min-width:1200px) {
     .container-fluid {
         background: linear-gradient(90deg, #233559 23%, #eeeeee 23%);
     }
