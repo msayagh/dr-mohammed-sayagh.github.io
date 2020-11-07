@@ -377,7 +377,6 @@ button::after {
         overflow-y: visible !important;
         z-index: 99999;
         background-color: #eeeeee;
-        background-color: #eeeeee;
     }
 
     .contact-info-container {
@@ -467,9 +466,6 @@ a:focus {
 .slide2 .conteneur_para section {
     width: 100%;
     height: 100vh;
-}
-
-.slide2 li {
 }
 
 .slide2 .nav-link.active {
