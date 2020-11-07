@@ -739,7 +739,7 @@ label {
 @media only screen and (max-width: 991px) {
     .container1-md {
         width: 100%;
-        padding-top: 40vh;
+        padding-top: 30vh;
     }
 
     .navigation-md {
@@ -765,7 +765,7 @@ label {
 @media only screen and (max-width: 575px) {
     .height-sm {
         height: auto;
-        padding-top: 10vh;
+        padding-top: 20vh;
     }
 
     .fleche {
@@ -1238,6 +1238,6 @@ h2 {
 
 @media only screen and (max-width:1200px) {
     .slide2 ul .nav-link {
-        font-size: 0.9em !important;
+        font-size: 0.75em !important;
     }
 }
