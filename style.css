@@ -500,8 +500,8 @@ li {
     font-family: Roboto;
     font-size: 0.84rem;
     list-style: none;
+    text-align: justify;
 
-    /* text-align: justify */
     /* line-height: 1.6rem !important */
 }
 
