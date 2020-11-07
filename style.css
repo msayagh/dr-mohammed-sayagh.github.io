@@ -1233,3 +1233,9 @@ h2 {
         font-size: 1.5rem !important;
     }
 }
+
+@media only screen and (min-width:980px) {
+    .heightMax {
+        min-height: 100vh;
+    }
+}
